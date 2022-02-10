@@ -19,19 +19,19 @@ export const AboutMe = ({ skillsRef, aboutRef }) => {
                         objectFit='cover'
                         borderRadius='20% 70% / 30% 50%'
                         ml={100}
-                        src="Taher-Profile-Pic.jpg" alt='Taher Ahmed' />
+                        src="santublack.jpeg" alt='santoshpic' />
                 </Box>
                 <Box color='white' mr={200} mt={150} minW={500}>
                     <Text fontFamily='helvetica' className='textStyle'>
                         {/* Hi I'm<strong style={{fontSize: "50px", color:"#6889FF"}}> Taher Ahmed</strong>  */}
-                        Hi I'm Taher Ahmed
+                        Hi I'm Santosh Konappanavar
                     </Text>
                     
                     <Text fontSize='18px'>
-                        A <strong style={{color:"#6889FF"}}>Full Stack Web Developer</strong> based in India. A creative coder who specializes in MERN stack. I make it my mission to design pixel-perfect websites or applications with optimized code that run blazing fast.
+                        A <strong style={{color:"#6889FF"}}>Full Stack Web Developer</strong> based in India. A creative coder who specializes in MERN stack. I make it my mission to design pixel-perfect websites with optimized code that run blazing fast.
                     </Text>
 
-                    <Link margin="auto" className='link' href="https://drive.google.com/file/d/1ol6jfIdTra58KKPAd7P7q8H4LG_Oy7HP/view?usp=sharing" target='_blank'>
+                    <Link margin="auto" className='link' href="https://drive.google.com/file/d/1y0b1CVuJCEAo1_LbzYiIDZHK08GLjYbu/view?usp=sharing" target='_blank'>
                         <span>Resume</span>
                         <div class="wave"></div>
                     </Link>
@@ -44,19 +44,19 @@ export const AboutMe = ({ skillsRef, aboutRef }) => {
                     boxSize='300px'
                     objectFit='cover'
                     borderRadius='80% 30% / 40% 50%'
-                    src="Taher-Profile-Pic.jpg" alt='Taher Ahmed' />
+                    src="santublack.jpeg" alt='Santosh Konappanavar' />
             </Box>
             <Box color='white' minW={300}>
                 <Text fontFamily='helvetica' className='textStyle' fontSize={20}>
-                    {/* Hi I'm<strong style={{fontSize: "40px", color:"#6889FF"}}> Taher Ahmed</strong> */}
-                    Hi I'm Taher Ahmed
+                    {/* Hi I'm<strong style={{fontSize: "40px", color:"#6889FF"}}> </strong> */}
+                    Hi I'm Santosh Konappanavar
                 </Text>
                 
                 <Text fontSize='14px' paddingLeft={15} paddingRight={15}>
                     A <strong style={{color:"#6889FF"}}>Full Stack Web Developer</strong> based in India. A creative coder who specializes in MERN stack. I make it my mission to design pixel-perfect websites or applications with optimized code that run blazing fast.
                 </Text>
 
-                <Link margin="auto" className='link' href="https://drive.google.com/file/d/1ol6jfIdTra58KKPAd7P7q8H4LG_Oy7HP/view?usp=sharing">
+                <Link margin="auto" className='link' href="https://drive.google.com/file/d/1y0b1CVuJCEAo1_LbzYiIDZHK08GLjYbu/view?usp=sharing">
                     <span>Resume</span>
                     <div class="wave"></div>
                 </Link>

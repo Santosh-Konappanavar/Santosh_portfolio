@@ -16,10 +16,10 @@ export const Blogs = ({ blogRef }) => {
                     <Center mt={60}>
                         <SimpleGrid columns={3} spacing={50}>
                             <Link minW={300} borderBottom='1px solid gray' cursor='pointer' textDecoration='none' target='_blank'
-                                href="https://medium.com/@taherahmed.sj.95/cloning-adidas-com-adidas-page-which-was-not-developed-by-the-adidas-team-85cb705419e5"
+                                href="https://medium.com/@ssk21m/masai-individual-project-freshly-com-clone-637fd1503e16"
                                 _hover={{ opacity: '0.5' }}>
                                 <Box>
-                                    <Image borderRadius='20px 20px 0px 0px' minW={300} height={150} src="adidas-blog.png" alt="adidas-project" />
+                                    <Image borderRadius='20px 20px 0px 0px' minW={300} height={150} src="freshly.comblog.png" alt="freshly-project" />
                                 </Box>
                             
                                 <Box color='white' minW={300}
@@ -35,10 +35,10 @@ export const Blogs = ({ blogRef }) => {
                             </Link>
         
                             <Link minW={300} borderBottom='1px solid gray' cursor='pointer' textDecoration='none' target='_blank'
-                                href="https://medium.com/@taherahmed.sj.95/cloning-of-groww-webpage-in-5-days-c9794fd4ef63"
+                                href="https://medium.com/@arpitshrivastava764/clone-of-healthkart-com-by-using-html-css-and-javascript-7d5d31a08143"
                                     _hover={{ opacity: '0.5' }}>
                                 <Box>
-                                    <Image borderRadius='20px 20px 0px 0px' minW={350} height={150} src="groww-blog.png" alt="groww-project" />
+                                    <Image borderRadius='20px 20px 0px 0px' minW={350} height={150} src="healthcartblog.png" alt="healthcart-project" />
                                 </Box>
                                 
                                 <Box color='white' minW={300}
@@ -54,10 +54,10 @@ export const Blogs = ({ blogRef }) => {
                         </Link>
  
                         <Link minW={300} borderBottom='1px solid gray' cursor='pointer' textDecoration='none' target='_blank'
-                            href="https://medium.com/@taherahmed.sj.95/hi-node-js-i-have-added-you-in-my-project-fe1cd7c14199"
+                            href="https://medium.com/@yogeshbogar099/clone-of-meesho-com-7175631ebaaa"
                                 _hover={{ opacity: '0.5' }}>
                             <Box>
-                                <Image borderRadius='20px 20px 0px 0px' minW={350} height={150} src="groww-backend-blog.png" alt="groww-project" />
+                                <Image borderRadius='20px 20px 0px 0px' minW={350} height={150} src="meeshoblog.png" alt="meesho-project" />
                             </Box>
                             
                             <Box color='white' minW={300}
@@ -83,10 +83,10 @@ export const Blogs = ({ blogRef }) => {
                 <Center mt={60}>
                 <SimpleGrid columns={1} spacing={30}>
                     <Link minW={300} borderBottom='1px solid gray' cursor='pointer' textDecoration='none' target='_blank'
-                        href="https://medium.com/@taherahmed.sj.95/cloning-adidas-com-adidas-page-which-was-not-developed-by-the-adidas-team-85cb705419e5"
+                        href="https://medium.com/@ssk21m/masai-individual-project-freshly-com-clone-637fd1503e16"
                         _hover={{ opacity: '0.5' }}>
                         <Box>
-                            <Image borderRadius='20px 20px 0px 0px' minW={300} height={150} src="adidas-blog.png" alt="adidas-project" />
+                            <Image borderRadius='20px 20px 0px 0px' minW={300} height={150} src="freshly.comblog.png" alt="freshly-project" />
                         </Box>
                         
                         <Box color='white' minW={300}
@@ -102,10 +102,10 @@ export const Blogs = ({ blogRef }) => {
                     </Link>
 
                     <Link minW={300} borderBottom='1px solid gray' cursor='pointer' textDecoration='none' target='_blank'
-                        href="https://medium.com/@taherahmed.sj.95/cloning-of-groww-webpage-in-5-days-c9794fd4ef63"
+                        href="https://medium.com/@arpitshrivastava764/clone-of-healthkart-com-by-using-html-css-and-javascript-7d5d31a08143"
                         _hover={{ opacity: '0.5' }}>
                         <Box>
-                            <Image borderRadius='20px 20px 0px 0px' minW={350} height={150} src="groww-blog.png" alt="adidas-project" />
+                            <Image borderRadius='20px 20px 0px 0px' minW={350} height={150} src="healthcartblog.png" alt="healthcart-project" />
                         </Box>
                         
                         <Box color='white' minW={300}
@@ -121,10 +121,10 @@ export const Blogs = ({ blogRef }) => {
                     </Link>
 
                     <Link minW={300} borderBottom='1px solid gray' cursor='pointer' textDecoration='none' target='_blank'
-                        href="https://medium.com/@taherahmed.sj.95/hi-node-js-i-have-added-you-in-my-project-fe1cd7c14199"
+                        href="https://medium.com/@yogeshbogar099/clone-of-meesho-com-7175631ebaaa"
                             _hover={{ opacity: '0.5' }}>
                         <Box>
-                            <Image borderRadius='20px 20px 0px 0px' minW={350} height={150} src="groww-backend-blog.png" alt="groww-project" />
+                            <Image borderRadius='20px 20px 0px 0px' minW={350} height={150} src="meeshoblog.png" alt="meesho-project" />
                         </Box>
                         
                         <Box color='white' minW={300}

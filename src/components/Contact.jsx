@@ -25,30 +25,30 @@ export const Contact = ({ aboutRef, contactRef }) => {
                             <PopoverContent>
                                 <PopoverArrow border='1px solid white' background='white' />
                                 <PopoverHeader background='white' fontSize={14} p={5} paddingBottom={0} borderRadius='10px 0 0 0' >Hey! Want to connect?</PopoverHeader>
-                                <PopoverBody background='white' fontSize={15} p={5} borderRadius='0 0 10px 0'>taherahmed.sj.95@gmail.com</PopoverBody>
+                                <PopoverBody background='white' fontSize={15} p={5} borderRadius='0 0 10px 0'>ssk21m@gmail.com</PopoverBody>
                             </PopoverContent>
                         </Popover>
-                        <Link href="https://www.linkedin.com/in/taher-ahmed-bb96b6123/"
+                        <Link href="https://www.linkedin.com/in/santosh-konappanavar/"
                             textDecoration='none' background='linear-gradient(to bottom right, #6889FF, #C668FF)' target='_blank'
                             color='black' p={8} border='2px solid #6889FF' class="btn-flip" data-back="LinkedIn" data-front="LinkedIn">
                                 </Link>
-                        <Link href="https://github.com/taherahmed14"
+                        <Link href="https://github.com/Santosh-Konappanavar"
                             textDecoration='none' background='linear-gradient(to bottom right, #6889FF, #C668FF)' target='_blank'
                             color='black' p={8} border='2px solid #6889FF' class="btn-flip" data-back="Github" data-front="Github"></Link>
-                        <Link href='https://medium.com/@taherahmed.sj.95'
+                        <Link href='https://medium.com/@ssk21m'
                             textDecoration='none' background='linear-gradient(to bottom right, #6889FF, #C668FF)' target='_blank'
                             color='black' p={8} border='2px solid #6889FF' class="btn-flip" data-back="Medium" data-front="Medium"></Link>
                     </SimpleGrid>
                     :
                     <SimpleGrid columns={2} spacing={10}>
-                        <Link href="https://www.linkedin.com/in/taher-ahmed-bb96b6123/"
+                        <Link href="https://www.linkedin.com/in/santosh-konappanavar/"
                             textDecoration='none' background='linear-gradient(to bottom right, #6889FF, #C668FF)' target='_blank'
                             color='black' p={8} border='2px solid #6889FF' class="btn-flip" data-back="LinkedIn" data-front="LinkedIn">
                                 </Link>
-                        <Link href="https://github.com/taherahmed14"
+                        <Link href="https://github.com/Santosh-Konappanavar"
                             textDecoration='none' background='linear-gradient(to bottom right, #6889FF, #C668FF)' target='_blank'
                             color='black' p={8} border='2px solid #6889FF' class="btn-flip" data-back="Github" data-front="Github"></Link>
-                        <Link href='https://medium.com/@taherahmed.sj.95'
+                        <Link href='https://medium.com/@ssk21m'
                             textDecoration='none' background='linear-gradient(to bottom right, #6889FF, #C668FF)' target='_blank'
                             color='black' p={8} border='2px solid #6889FF' class="btn-flip" data-back="Medium" data-front="Medium"></Link>
                         <Popover>
@@ -59,7 +59,7 @@ export const Contact = ({ aboutRef, contactRef }) => {
                             <PopoverContent>
                                 <PopoverArrow border='1px solid white' background='white' />
                                 <PopoverHeader background='white' fontSize={14} p={5} paddingBottom={0} borderRadius='10px 0 0 0' >Hey! Want to connect?</PopoverHeader>
-                                <PopoverBody background='white' fontSize={15} p={5} borderRadius='0 0 10px 0'>taherahmed.sj.95@gmail.com</PopoverBody>
+                                <PopoverBody background='white' fontSize={15} p={5} borderRadius='0 0 10px 0'>ssk21m@gmail.com</PopoverBody>
                             </PopoverContent>
                         </Popover>
                     </SimpleGrid>
@@ -101,7 +101,7 @@ export const Contact = ({ aboutRef, contactRef }) => {
             </Box>
             }
             
-            <Text color='white' fontSize={12} mt={150}>Created by <strong color='#C668FF'>Taher Ahmed</strong></Text>
+            <Text color='white' fontSize={12} mt={150}>Created by <strong color='#C668FF'>Santosh Konappanavar</strong></Text>
 
         </Container>
     )

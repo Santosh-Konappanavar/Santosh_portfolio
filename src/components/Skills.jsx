@@ -36,22 +36,22 @@ export const Skills = ({ skillsRef }) => {
                             <img className="skillsLogo" src="react.svg" alt="react" />
                             <Text background='none' marginLeft='5px'>React</Text>
                         </Box>
-                        <Box background='linear-gradient(to bottom right, #6889FF, #C668FF)' color='black' display='flex' justifyContent='center' border='0px solid #6889FF'>
+                        {/* <Box background='linear-gradient(to bottom right, #6889FF, #C668FF)' color='black' display='flex' justifyContent='center' border='0px solid #6889FF'>
                             <img className="skillsLogo" src="redux.svg" alt="redux" />
                             <Text background='none' marginLeft='5px'>Redux</Text>
-                        </Box>
+                        </Box> */}
                         <Box background='linear-gradient(to bottom right, #6889FF, #C668FF)' color='black' display='flex' justifyContent='center' border='0px solid #6889FF'>
                             <img className="skillsLogo" src="npm-icon.svg" alt="npm" />
                             <Text background='none' marginLeft='5px'>Npm</Text>
                         </Box>
-                        <Box background='linear-gradient(to bottom right, #6889FF, #C668FF)' color='black' display='flex' justifyContent='center' border='0px solid #6889FF'>
+                        {/* <Box background='linear-gradient(to bottom right, #6889FF, #C668FF)' color='black' display='flex' justifyContent='center' border='0px solid #6889FF'>
                             <img className="skillsLogo" src="tailwindcss-icon.svg" alt="tailwind" />
                             <Text background='none' marginLeft='5px'>Tailwind</Text>
-                        </Box>
-                        <Box background='linear-gradient(to bottom right, #6889FF, #C668FF)' color='black' display='flex' justifyContent='center' border='0px solid #6889FF'>
+                        </Box> */}
+                        {/* <Box background='linear-gradient(to bottom right, #6889FF, #C668FF)' color='black' display='flex' justifyContent='center' border='0px solid #6889FF'>
                             <img className="skillsLogo" src="highcharts.svg" alt="chart" />
                             <Text background='none' marginLeft='5px'>Chart js</Text>
-                        </Box>
+                        </Box> */}
                     </SimpleGrid>
                 </Center> :
                 <Center>
