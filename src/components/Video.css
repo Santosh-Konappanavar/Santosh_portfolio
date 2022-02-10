@@ -1,0 +1,10 @@
+/* html, body{
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden
+} */
+
+video{
+    width: 800px;
+    height: 500px;
+}

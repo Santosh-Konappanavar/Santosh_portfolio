@@ -1,0 +1,58 @@
+.projectCard{
+    min-width: 300px;
+    height: 520px;
+    border-radius: 20px;
+}
+
+.projectCard:hover{
+    box-shadow: 0 0 8px #6889FF;
+}
+
+.projectButton{
+    background: linear-gradient(
+        to bottom right,
+        #403F44, #1E1B32
+    );
+    height: 200px;
+    border-radius: 0 0 20px 20px;
+}
+
+.projectDescBox{
+    width: 350px;
+    height: 80px;
+    background: none;
+}
+
+.projectDescText{
+    font-size: 12px;
+    color: white;
+    text-align: justify;
+    background: none;
+}
+
+.techStackBox{
+    margin-top: -2%;
+    background: none;
+}
+
+.techStack{
+    color: white;
+    border: 1px solid #403F44;
+    border-radius: 10px;
+    min-width: 45px;
+    max-width: 45px;
+    padding: 4px;
+    margin: 5px;
+    font-size: 9px;
+    background: linear-gradient(
+        to bottom right,
+        #403F44, #1E1B32
+    );
+    box-shadow: 2px 2px 2px #403F44;
+}
+
+.buttonBox{
+    margin-top: 30px;
+    background: none;
+    width: 350px;
+}
