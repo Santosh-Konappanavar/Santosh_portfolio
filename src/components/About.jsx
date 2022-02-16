@@ -82,4 +82,3 @@ export const AboutMe = ({ skillsRef, aboutRef }) => {
         </Center>
     );
 };
-
