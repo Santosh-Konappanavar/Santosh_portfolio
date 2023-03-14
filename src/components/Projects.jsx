@@ -27,8 +27,38 @@ export const Projects = ({ projectRef }) => {
     return(
         <> 
             {isLargerThan1200 ? 
-            <Container mt={150} mb={150} ref={projectRef}>
+            <Container mt={130} mb={150} ref={projectRef}>
             <Center>
+                <Heading color='#6889FF' borderBottom='2px solid #C668FF'  alignContent='center'>My Statistics</Heading>
+            </Center>
+
+            <Center mt={60} mb={50}>
+                    <Container className="projectCard">
+                    <Box borderRadius='20px'>
+                            <Image borderRadius='20px 0px 0px 0px' minW={150} height={150} src="stats.png" alt="stats" alignContent='center' className="skincarwidth" />
+                        </Box>
+                    </Container>
+            </Center>
+            <Center>
+                <Heading color='#6889FF' borderBottom='2px solid #C668FF'  alignContent='center'>My Github Calender</Heading>
+            </Center>
+
+            <Center mt={60}>
+                <SimpleGrid>
+                    <Container className="projectCard">
+                    <Box borderRadius='20px'>
+                            <Image borderRadius='20px 0px 0px 0px' minW={150} height={150} src="calender2.png" alt="calender" alignContent='center' className="skincarwidth" />
+                    </Box>
+                    </Container>
+                    <Container className="projectCard">
+                    <Box borderRadius='20px'>
+                            <Image borderRadius='20px 0px 0px 0px' minW={150} height={150} src="calender.png" alt="calender" alignContent='center' className="skincarwidth" />
+                    </Box>
+                    </Container>
+                </SimpleGrid>
+            </Center>
+
+            <Center mt={30}>
                 <Heading color='#6889FF' borderBottom='2px solid #C668FF' width={100} alignContent='center'>Projects</Heading>
             </Center>
            
@@ -36,7 +66,7 @@ export const Projects = ({ projectRef }) => {
                 <SimpleGrid columns={2} spacing={30}>
                     <Container className="projectCard">
                         <Box borderRadius='20px'>
-                            <Image borderRadius='20px 20px 0px 0px' minW={300} height={300} src="smallcaseproject.png" alt="smallcaseproject" />
+                            <Image borderRadius='20px 20px 0px 0px' minW={300} height={300} src="smallcaseproject.png" alt="smallcaseproject" className="skincarwidth" />
                         </Box>
                         <Text className="projectDescText projectcenter">Smallcase</Text>
                         <Box mt={-4} p={10} className="projectButton">
@@ -78,7 +108,7 @@ It provides the portfolios of stocks. User can visit, invest and buy stocks.
 
                     <Container className="projectCard">
                         <Box borderRadius='20px'>
-                            <Image borderRadius='20px 20px 0px 0px' minW={300} height={300} src="healthkart.png" alt="smallcaseproject" />
+                            <Image borderRadius='20px 20px 0px 0px' minW={300} height={300} src="healthkart.png" alt="smallcaseproject" className="skincarwidth" />
                         </Box>
                         <Text className="projectDescText projectcenter">HealthCart</Text>
                         <Box mt={-4} p={10} className="projectButton">
@@ -120,7 +150,7 @@ It provides the portfolios of stocks. User can visit, invest and buy stocks.
 
                     <Container className="projectCard">
                         <Box borderRadius='20px'>
-                            <Image borderRadius='20px 20px 0px 0px' minW={300} height={300} src="conferencepage.png" alt="smallcaseproject" />
+                            <Image borderRadius='20px 20px 0px 0px' minW={300} height={300} src="conferencepage.png" alt="smallcaseproject" className="skincarwidth" />
                         </Box>
                         <Text className="projectDescText projectcenter">Conference Page</Text>
                         <Box mt={-4} p={10} className="projectButton">
@@ -162,7 +192,7 @@ It provides the portfolios of stocks. User can visit, invest and buy stocks.
 
                     <Container className="projectCard">
                         <Box borderRadius='20px'> 
-                            <Image borderRadius='20px 20px 0px 0px' minW={300} height={300} src="theskincareproject.png" alt="theskincatre-project" />
+                            <Image borderRadius='20px 20px 0px 0px' minW={300} height={300} src="theskincareproject.png" alt="theskincatre-project" className="skincarwidth" />
                         </Box>
                         <Text className="projectDescText projectcenter">TheskinCare</Text>
                         <Box mt={-4} p={10} className="projectButton">
@@ -207,6 +237,39 @@ Tech stack used - HTML,CSS,Javascript.
                 :
 
                 <Container mt={150} mb={150} ref={projectRef}>
+
+             <Center>
+                <Heading color='#6889FF' borderBottom='2px solid #C668FF'  alignContent='center'>My Statistics</Heading>
+            </Center>
+
+            <Center mt={60} mb={50}>
+                <SimpleGrid>
+                    <Container className="projectCard">
+                    <Box borderRadius='20px'>
+                            <Image borderRadius='20px 0px 0px 0px' minW={100} height={100} src="stats.png" alt="stats" className="skincarwidth" />
+                        </Box>
+                    </Container>
+                </SimpleGrid>
+            </Center>
+            <Center>
+                <Heading color='#6889FF' borderBottom='2px solid #C668FF'  alignContent='center'>My Github Calender</Heading>
+            </Center>
+
+            <Center mt={60}>
+                <SimpleGrid>
+                    <Container className="projectCard">
+                    <Box borderRadius='20px'>
+                            <Image borderRadius='20px 0px 0px 0px' minW={100} height={100} src="calender2.png" alt="calender" className="skincarwidth" />
+                    </Box>
+                    </Container>
+                    <Container className="projectCard">
+                    <Box borderRadius='20px'>
+                            <Image borderRadius='20px 0px 0px 0px' minW={100} height={100} src="calender.png" alt="calender" className="skincarwidth" />
+                    </Box>
+                    </Container>
+                </SimpleGrid>
+            </Center>
+
                 <Center>
                     <Heading color='#6889FF' borderBottom='2px solid #C668FF' width={100} alignContent='center'>Projects</Heading>
                 </Center>
@@ -215,7 +278,7 @@ Tech stack used - HTML,CSS,Javascript.
                     <SimpleGrid columns={1} spacing={30}>
                         <Container className="projectCard">
                             <Box borderRadius='20px'>
-                                <Image borderRadius='20px 20px 0px 0px' minW={300} height={300} src="smallcaseproject.png" alt="smallcase-project" />
+                                <Image borderRadius='20px 20px 0px 0px' minW={200} height={300} src="smallcaseproject.png" alt="smallcase-project" className="skincarwidth" />
                             </Box>
                             <Text className="projectDescText projectcenter">SmallCase</Text>
                             <Box mt={-4} p={10} className="projectButton">
@@ -252,7 +315,7 @@ It provides the portfolios of stocks. User can visit, invest and buy stocks.
 
                         <Container className="projectCard">
                         <Box borderRadius='20px'>
-                            <Image borderRadius='20px 20px 0px 0px' minW={300} height={300} src="healthkart.png" alt="smallcaseproject" />
+                            <Image borderRadius='20px 20px 0px 0px' minW={200} height={300} src="healthkart.png" alt="smallcaseproject" className="skincarwidth" />
                         </Box>
                         <Text className="projectDescText projectcenter">HealthCart</Text>
                         <Box mt={-4} p={10} className="projectButton">
@@ -294,7 +357,7 @@ It provides the portfolios of stocks. User can visit, invest and buy stocks.
 
                     <Container className="projectCard">
                         <Box borderRadius='20px'>
-                            <Image borderRadius='20px 20px 0px 0px' minW={300} height={300} src="conferencepage.png" alt="smallcaseproject" />
+                            <Image borderRadius='20px 20px 0px 0px' minW={200} height={300} src="conferencepage.png" alt="smallcaseproject" className="skincarwidth" />
                         </Box>
                         <Text className="projectDescText projectcenter">Conference Page</Text>
                         <Box mt={-4} p={10} className="projectButton">
@@ -336,7 +399,7 @@ It provides the portfolios of stocks. User can visit, invest and buy stocks.
                       
                         <Container className="projectCard">
                             <Box borderRadius='20px'> 
-                                <Image borderRadius='20px 20px 0px 0px' minW={300} height={300} src="theskincareproject.png" alt="theskincare-project" />
+                                <Image borderRadius='20px 20px 0px 0px' minW={200}  height={300} src="theskincareproject.png" alt="theskincare-project" className="skincarwidth" />
                             </Box>
                             <Text className="projectDescText projectcenter">TheSkinCare</Text>
 
@@ -353,7 +416,7 @@ Tech stack used - HTML,CSS,Javascript.
                                     <Text className="techStack">JS</Text>
                                 </Box>
 
-                                <Box className="buttonBox">
+                                <Box className="buttonBox" justifyContent='center'>
                                     <Link href="https://github.com/Santosh-Konappanavar/Theskincare" textDecoration='none' fontSize='14px' ml={20} color='#C668FF' p={8} 
                                         border='2px solid #C668FF' target='_blank' fontWeight={"bold"}
                                         _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
