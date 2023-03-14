@@ -9,7 +9,7 @@ export const Header = ({ aboutRef, skillsRef, projectRef, blogRef, contactRef })
             {isLargerThan600 ?
             <Center height={60} pos='sticky' top='0' justifyContent='left'>
                 <SimpleGrid columns={5} spacing={10} ml={100}>
-                    <Box color='#C668FF' _hover={{ cursor: 'pointer', borderBottom: '2px solid #6889FF' }}
+                    <Box color='#C668FF' fontWeight={'bold'} _hover={{ cursor: 'pointer', borderBottom: '2px solid #6889FF' }}
                         onClick={() => {
                             aboutRef.current.scrollIntoView(
                                 {
@@ -17,7 +17,7 @@ export const Header = ({ aboutRef, skillsRef, projectRef, blogRef, contactRef })
                                 }
                             )
                         }}>About</Box>
-                    <Box color='#C668FF' _hover={{ cursor: 'pointer', borderBottom: '2px solid #6889FF' }}
+                    <Box color='#C668FF' fontWeight={'bold'} _hover={{ cursor: 'pointer', borderBottom: '2px solid #6889FF' }}
                         onClick={() => {
                             skillsRef.current.scrollIntoView(
                                 {
@@ -25,7 +25,7 @@ export const Header = ({ aboutRef, skillsRef, projectRef, blogRef, contactRef })
                                 }
                             )
                         }}>Skills</Box>
-                    <Box color='#C668FF' _hover={{ cursor: 'pointer', borderBottom: '2px solid #6889FF' }}
+                    <Box color='#C668FF' fontWeight={'bold'} _hover={{ cursor: 'pointer', borderBottom: '2px solid #6889FF' }}
                         onClick={() => {
                             projectRef.current.scrollIntoView(
                                 {
@@ -33,7 +33,7 @@ export const Header = ({ aboutRef, skillsRef, projectRef, blogRef, contactRef })
                                 }
                             )
                         }}>Projects</Box>
-                    <Box color='#C668FF' _hover={{ cursor: 'pointer', borderBottom: '2px solid #6889FF' }}
+                    <Box color='#C668FF' fontWeight={'bold'} _hover={{ cursor: 'pointer', borderBottom: '2px solid #6889FF' }}
                         onClick={() => {
                             blogRef.current.scrollIntoView(
                                 {
@@ -41,7 +41,7 @@ export const Header = ({ aboutRef, skillsRef, projectRef, blogRef, contactRef })
                                 }
                             )
                         }}>Blogs</Box>
-                    <Box color='#C668FF' _hover={{ cursor: 'pointer', borderBottom: '2px solid #6889FF' }}
+                    <Box color='#C668FF' fontWeight={'bold'} _hover={{ cursor: 'pointer', borderBottom: '2px solid #6889FF' }}
                         onClick={() => {
                             contactRef.current.scrollIntoView(
                                 {
@@ -54,7 +54,7 @@ export const Header = ({ aboutRef, skillsRef, projectRef, blogRef, contactRef })
                 :
                 <Center height={60} pos='sticky' top='0' justifyContent='center' minW={300}>
                 <SimpleGrid columns={5} spacing={2} fontSize={15}>
-                    <Box color='#C668FF' _hover={{ cursor: 'pointer', borderBottom: '2px solid #6889FF' }}
+                    <Box color='#C668FF' fontWeight={'bold'} _hover={{ cursor: 'pointer', borderBottom: '2px solid #6889FF' }}
                         onClick={() => {
                             aboutRef.current.scrollIntoView(
                                 {
@@ -62,7 +62,7 @@ export const Header = ({ aboutRef, skillsRef, projectRef, blogRef, contactRef })
                                 }
                             )
                         }}>About</Box>
-                    <Box color='#C668FF' _hover={{ cursor: 'pointer', borderBottom: '2px solid #6889FF' }}
+                    <Box color='#C668FF' fontWeight={'bold'} _hover={{ cursor: 'pointer', borderBottom: '2px solid #6889FF' }}
                         onClick={() => {
                             skillsRef.current.scrollIntoView(
                                 {
@@ -70,7 +70,7 @@ export const Header = ({ aboutRef, skillsRef, projectRef, blogRef, contactRef })
                                 }
                             )
                         }}>Skills</Box>
-                    <Box color='#C668FF' _hover={{ cursor: 'pointer', borderBottom: '2px solid #6889FF' }}
+                    <Box color='#C668FF' fontWeight={'bold'} _hover={{ cursor: 'pointer', borderBottom: '2px solid #6889FF' }}
                         onClick={() => {
                             projectRef.current.scrollIntoView(
                                 {
@@ -78,7 +78,7 @@ export const Header = ({ aboutRef, skillsRef, projectRef, blogRef, contactRef })
                                 }
                             )
                         }}>Projects</Box>
-                    <Box color='#C668FF' _hover={{ cursor: 'pointer', borderBottom: '2px solid #6889FF' }}
+                    <Box color='#C668FF' fontWeight={'bold'} _hover={{ cursor: 'pointer', borderBottom: '2px solid #6889FF' }}
                         onClick={() => {
                             blogRef.current.scrollIntoView(
                                 {
@@ -86,7 +86,7 @@ export const Header = ({ aboutRef, skillsRef, projectRef, blogRef, contactRef })
                                 }
                             )
                         }}>Blogs</Box>
-                    <Box color='#C668FF' _hover={{ cursor: 'pointer', borderBottom: '2px solid #6889FF' }}
+                    <Box color='#C668FF' fontWeight={'bold'} _hover={{ cursor: 'pointer', borderBottom: '2px solid #6889FF' }}
                         onClick={() => {
                             contactRef.current.scrollIntoView(
                                 {
