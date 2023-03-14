@@ -38,6 +38,7 @@ export const Projects = ({ projectRef }) => {
                         <Box borderRadius='20px'>
                             <Image borderRadius='20px 20px 0px 0px' minW={300} height={300} src="smallcaseproject.png" alt="smallcaseproject" />
                         </Box>
+                        <Text className="projectDescText projectcenter">Smallcase</Text>
                         <Box mt={-4} p={10} className="projectButton">
                             <Box className="projectDescBox">
                                 <Text className="projectDescText">Cloned smallcase website using CSS, EJS and JavaScipt for client side & MongoDB and ExpressJS for sever side.
@@ -54,13 +55,95 @@ It provides the portfolios of stocks. User can visit, invest and buy stocks.
                             </Box>
 
                             <Box className="buttonBox">
-                                <Link href="https://github.com/Santosh-Konappanavar/smallcases_project/tree/main/smallcase-clone" textDecoration='none' fontSize='14px' ml={20} color='#C668FF' p={8} 
-                                    border='2px solid #C668FF' target='_blank'
+                                <Link href="https://github.com/Santosh-Konappanavar/smallcases_project" textDecoration='none' fontSize='14px' ml={20} color='#C668FF' p={8} 
+                                    border='2px solid #C668FF' target='_blank' fontWeight={"bold"}
                                     _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
                                     >Code
                                 </Link>
-                                <Link href="https://smallcase-clone.herokuapp.com" textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
-                                    border='2px solid #C668FF' target='_blank'
+                                <Link href="https://smallcase.netlify.app/" textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
+                                    border='2px solid #C668FF' target='_blank' fontWeight={"bold"}
+                                    _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
+                                    >Website
+                                </Link>    
+                                {/* <Link textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
+                                    border='2px solid #C668FF'
+                                    _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
+                                    onClick={() => setShowVideoOne(true)}>
+                                    Demo
+                                </Link> */}
+                            </Box>
+                        </Box>
+                        {/* {showVideoOne ? <DemoVideoOne closeDemoVideoOne={closeDemoVideoOne} /> : null} */}
+                    </Container>
+
+                    <Container className="projectCard">
+                        <Box borderRadius='20px'>
+                            <Image borderRadius='20px 20px 0px 0px' minW={300} height={300} src="healthkart.png" alt="smallcaseproject" />
+                        </Box>
+                        <Text className="projectDescText projectcenter">HealthCart</Text>
+                        <Box mt={-4} p={10} className="projectButton">
+                            <Box className="projectDescBox">
+                                <Text className="projectDescText">Cloned smallcase website using CSS, EJS and JavaScipt for client side & MongoDB and ExpressJS for sever side.
+It provides the portfolios of stocks. User can visit, invest and buy stocks.
+                                </Text>
+                            </Box>
+
+                            <Box display='flex' className="techStackBox" justifyContent='center'>
+                                <Text className="techStack">HTML</Text>
+                                <Text className="techStack">CSS</Text>
+                                <Text className="techStack">JS</Text>
+                                <Text className="techStack">Node</Text>
+                                <Text className="techStack">MongoDb</Text>
+                            </Box>
+
+                            <Box className="buttonBox">
+                                <Link href="https://github.com/Santosh-Konappanavar/healthcart" textDecoration='none' fontSize='14px' ml={20} color='#C668FF' p={8} 
+                                    border='2px solid #C668FF' target='_blank' fontWeight={"bold"}
+                                    _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
+                                    >Code
+                                </Link>
+                                <Link href="https://hemantjayas.github.io/HealthKart/" textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
+                                    border='2px solid #C668FF' target='_blank' fontWeight={"bold"}
+                                    _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
+                                    >Website
+                                </Link>    
+                                {/* <Link textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
+                                    border='2px solid #C668FF'
+                                    _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
+                                    onClick={() => setShowVideoOne(true)}>
+                                    Demo
+                                </Link> */}
+                            </Box>
+                        </Box>
+                        {/* {showVideoOne ? <DemoVideoOne closeDemoVideoOne={closeDemoVideoOne} /> : null} */}
+                    </Container>
+
+                    <Container className="projectCard">
+                        <Box borderRadius='20px'>
+                            <Image borderRadius='20px 20px 0px 0px' minW={300} height={300} src="conferencepage.png" alt="smallcaseproject" />
+                        </Box>
+                        <Text className="projectDescText projectcenter">Conference Page</Text>
+                        <Box mt={-4} p={10} className="projectButton">
+                            <Box className="projectDescBox">
+                                <Text className="projectDescText">Cloned smallcase website using CSS, EJS and JavaScipt for client side & MongoDB and ExpressJS for sever side.
+It provides the portfolios of stocks. User can visit, invest and buy stocks.
+                                </Text>
+                            </Box>
+
+                            <Box display='flex' className="techStackBox" justifyContent='center'>
+                                <Text className="techStack">HTML</Text>
+                                <Text className="techStack">CSS</Text>
+                                <Text className="techStack">JS</Text>
+                            </Box>
+
+                            <Box className="buttonBox">
+                                <Link href="https://github.com/Santosh-Konappanavar/capstone-project-Conference-page" textDecoration='none' fontSize='14px' ml={20} color='#C668FF' p={8} 
+                                    border='2px solid #C668FF' target='_blank' fontWeight={"bold"}
+                                    _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
+                                    >Code
+                                </Link>
+                                <Link href="https://santosh-konappanavar.github.io/capstone-project-Conference-page/" textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
+                                    border='2px solid #C668FF' target='_blank' fontWeight={"bold"}
                                     _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
                                     >Website
                                 </Link>    
@@ -81,7 +164,7 @@ It provides the portfolios of stocks. User can visit, invest and buy stocks.
                         <Box borderRadius='20px'> 
                             <Image borderRadius='20px 20px 0px 0px' minW={300} height={300} src="theskincareproject.png" alt="theskincatre-project" />
                         </Box>
-
+                        <Text className="projectDescText projectcenter">TheskinCare</Text>
                         <Box mt={-4} p={10} className="projectButton">
                             <Box className="projectDescBox">
                                 <Text className="projectDescText">Build this website individually with use of UI/UX design for the people who wants to use dermatological skin care expertise .
@@ -97,12 +180,12 @@ Tech stack used - HTML,CSS,Javascript.
 
                             <Box className="buttonBox">
                                 <Link href="https://github.com/Santosh-Konappanavar/Theskincare" textDecoration='none' fontSize='14px' ml={20} color='#C668FF' p={8} 
-                                    border='2px solid #C668FF' target='_blank'
+                                    border='2px solid #C668FF' target='_blank' fontWeight={"bold"}
                                     _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
                                     >Code
                                 </Link>
                                 <Link href="https://santosh-konappanavar.github.io/Theskincare/" textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
-                                    border='2px solid #C668FF' target='_blank'
+                                    border='2px solid #C668FF' target='_blank' fontWeight={"bold"}
                                     _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
                                     >Website
                                 </Link>    
@@ -134,6 +217,7 @@ Tech stack used - HTML,CSS,Javascript.
                             <Box borderRadius='20px'>
                                 <Image borderRadius='20px 20px 0px 0px' minW={300} height={300} src="smallcaseproject.png" alt="smallcase-project" />
                             </Box>
+                            <Text className="projectDescText projectcenter">SmallCase</Text>
                             <Box mt={-4} p={10} className="projectButton">
                                 <Box className="projectDescBox">
                                     <Text className="projectDescText">Cloned smallcase website using CSS, EJS and JavaScipt for client side & MongoDB and ExpressJS for sever side.
@@ -151,12 +235,12 @@ It provides the portfolios of stocks. User can visit, invest and buy stocks.
 
                                 <Box className="buttonBox">
                                     <Link href="https://github.com/Santosh-Konappanavar/smallcases_project/tree/main/smallcase-clone" textDecoration='none' fontSize='14px' ml={20} color='#C668FF' p={8} 
-                                        border='2px solid #C668FF' target='_blank'
+                                        border='2px solid #C668FF' target='_blank' fontWeight={"bold"}
                                         _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
                                         >Code
                                     </Link>
                                     <Link href="https://smallcase.netlify.app/" textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
-                                        border='2px solid #C668FF' target='_blank'
+                                        border='2px solid #C668FF' target='_blank' fontWeight={"bold"}
                                         _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
                                         >Website
                                     </Link>    
@@ -166,11 +250,95 @@ It provides the portfolios of stocks. User can visit, invest and buy stocks.
                             
                         </Container>
 
+                        <Container className="projectCard">
+                        <Box borderRadius='20px'>
+                            <Image borderRadius='20px 20px 0px 0px' minW={300} height={300} src="healthkart.png" alt="smallcaseproject" />
+                        </Box>
+                        <Text className="projectDescText projectcenter">HealthCart</Text>
+                        <Box mt={-4} p={10} className="projectButton">
+                            <Box className="projectDescBox">
+                                <Text className="projectDescText">Cloned smallcase website using CSS, EJS and JavaScipt for client side & MongoDB and ExpressJS for sever side.
+It provides the portfolios of stocks. User can visit, invest and buy stocks.
+                                </Text>
+                            </Box>
+
+                            <Box display='flex' className="techStackBox" justifyContent='center'>
+                                <Text className="techStack">HTML</Text>
+                                <Text className="techStack">CSS</Text>
+                                <Text className="techStack">JS</Text>
+                                <Text className="techStack">Node</Text>
+                                <Text className="techStack">MongoDb</Text>
+                            </Box>
+
+                            <Box className="buttonBox">
+                                <Link href="https://github.com/Santosh-Konappanavar/healthcart" textDecoration='none' fontSize='14px' ml={20} color='#C668FF' p={8} 
+                                    border='2px solid #C668FF' target='_blank' fontWeight={"bold"}
+                                    _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
+                                    >Code
+                                </Link>
+                                <Link href="https://hemantjayas.github.io/HealthKart/" textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
+                                    border='2px solid #C668FF' target='_blank' fontWeight={"bold"}
+                                    _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
+                                    >Website
+                                </Link>    
+                                {/* <Link textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
+                                    border='2px solid #C668FF'
+                                    _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
+                                    onClick={() => setShowVideoOne(true)}>
+                                    Demo
+                                </Link> */}
+                            </Box>
+                        </Box>
+                        {/* {showVideoOne ? <DemoVideoOne closeDemoVideoOne={closeDemoVideoOne} /> : null} */}
+                    </Container>
+
+                    <Container className="projectCard">
+                        <Box borderRadius='20px'>
+                            <Image borderRadius='20px 20px 0px 0px' minW={300} height={300} src="conferencepage.png" alt="smallcaseproject" />
+                        </Box>
+                        <Text className="projectDescText projectcenter">Conference Page</Text>
+                        <Box mt={-4} p={10} className="projectButton">
+                            <Box className="projectDescBox">
+                                <Text className="projectDescText">Cloned smallcase website using CSS, EJS and JavaScipt for client side & MongoDB and ExpressJS for sever side.
+It provides the portfolios of stocks. User can visit, invest and buy stocks.
+                                </Text>
+                            </Box>
+
+                            <Box display='flex' className="techStackBox" justifyContent='center'>
+                                <Text className="techStack">HTML</Text>
+                                <Text className="techStack">CSS</Text>
+                                <Text className="techStack">JS</Text>
+                            </Box>
+
+                            <Box className="buttonBox">
+                                <Link href="https://github.com/Santosh-Konappanavar/capstone-project-Conference-page" textDecoration='none' fontSize='14px' ml={20} color='#C668FF' p={8} 
+                                    border='2px solid #C668FF' target='_blank' fontWeight={"bold"}
+                                    _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
+                                    >Code
+                                </Link>
+                                <Link href="https://santosh-konappanavar.github.io/capstone-project-Conference-page/" textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
+                                    border='2px solid #C668FF' target='_blank' fontWeight={"bold"}
+                                    _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
+                                    >Website
+                                </Link>    
+                                {/* <Link textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
+                                    border='2px solid #C668FF'
+                                    _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
+                                    onClick={() => setShowVideoOne(true)}>
+                                    Demo
+                                </Link> */}
+                            </Box>
+                        </Box>
+                        {/* {showVideoOne ? <DemoVideoOne closeDemoVideoOne={closeDemoVideoOne} /> : null} */}
+                    </Container>
+
+
                       
                         <Container className="projectCard">
                             <Box borderRadius='20px'> 
                                 <Image borderRadius='20px 20px 0px 0px' minW={300} height={300} src="theskincareproject.png" alt="theskincare-project" />
                             </Box>
+                            <Text className="projectDescText projectcenter">TheSkinCare</Text>
 
                             <Box mt={-4} p={10} className="projectButton">
                                 <Box className="projectDescBox">
@@ -187,12 +355,12 @@ Tech stack used - HTML,CSS,Javascript.
 
                                 <Box className="buttonBox">
                                     <Link href="https://github.com/Santosh-Konappanavar/Theskincare" textDecoration='none' fontSize='14px' ml={20} color='#C668FF' p={8} 
-                                        border='2px solid #C668FF' target='_blank'
+                                        border='2px solid #C668FF' target='_blank' fontWeight={"bold"}
                                         _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
                                         >Code
                                     </Link>
                                     <Link href="https://santosh-konappanavar.github.io/Theskincare/" textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
-                                        border='2px solid #C668FF' target='_blank'
+                                        border='2px solid #C668FF' target='_blank' fontWeight={"bold"}
                                         _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
                                         >Website
                                     </Link>    

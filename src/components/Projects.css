@@ -1,7 +1,10 @@
 .projectCard{
     min-width: 300px;
-    height: 520px;
     border-radius: 20px;
+    background: linear-gradient(
+        to bottom right,
+        #403F44, #1E1B32
+    );
 }
 
 .projectCard:hover{
@@ -25,14 +28,14 @@
 }
 
 .projectDescText{
-    font-size: 12px;
+    font-size: 14px;
     color: white;
     text-align: justify;
     background: none;
+    font-weight: 400;
 }
 
 .techStackBox{
-    margin-top: -2%;
     background: none;
 }
 
@@ -40,11 +43,12 @@
     color: white;
     border: 1px solid #403F44;
     border-radius: 10px;
-    min-width: 45px;
-    max-width: 45px;
+    font-weight: 600;
+    min-width: 50px;
+    max-width: 50px;
     padding: 4px;
     margin: 5px;
-    font-size: 9px;
+    font-size: 11px;
     background: linear-gradient(
         to bottom right,
         #403F44, #1E1B32
@@ -56,4 +60,10 @@
     margin-top: 30px;
     background: none;
     width: 470px;
+}
+
+.projectcenter{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
 }
