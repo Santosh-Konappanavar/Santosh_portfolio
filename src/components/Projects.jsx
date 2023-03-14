@@ -27,12 +27,12 @@ export const Projects = ({ projectRef }) => {
     return(
         <> 
             {isLargerThan1200 ? 
-            <Container mt={130} mb={150} ref={projectRef}>
+            <Container mt={130} mb={150} >
             <Center>
                 <Heading color='#6889FF' borderBottom='2px solid #C668FF'  alignContent='center'>My Statistics</Heading>
             </Center>
 
-            <Center mt={60} mb={50}>
+            <Center mt={30} mb={30}>
                     <Container className="projectCard">
                     <Box borderRadius='20px'>
                             <Image borderRadius='20px 0px 0px 0px' minW={150} height={150} src="stats.png" alt="stats" alignContent='center' className="skincarwidth" />
@@ -43,7 +43,7 @@ export const Projects = ({ projectRef }) => {
                 <Heading color='#6889FF' borderBottom='2px solid #C668FF'  alignContent='center'>My Github Calender</Heading>
             </Center>
 
-            <Center mt={60}>
+            <Center mt={30}>
                 <SimpleGrid>
                     <Container className="projectCard">
                     <Box borderRadius='20px'>
@@ -58,7 +58,7 @@ export const Projects = ({ projectRef }) => {
                 </SimpleGrid>
             </Center>
 
-            <Center mt={30}>
+            <Center mt={40} ref={projectRef}>
                 <Heading color='#6889FF' borderBottom='2px solid #C668FF' width={100} alignContent='center'>Projects</Heading>
             </Center>
            
@@ -236,17 +236,17 @@ Tech stack used - HTML,CSS,Javascript.
 
                 :
 
-                <Container mt={150} mb={150} ref={projectRef}>
+                <Container mt={150} mb={150} >
 
              <Center>
                 <Heading color='#6889FF' borderBottom='2px solid #C668FF'  alignContent='center'>My Statistics</Heading>
             </Center>
 
-            <Center mt={60} mb={50}>
+            <Center mt={30} mb={30}>
                 <SimpleGrid>
                     <Container className="projectCard">
                     <Box borderRadius='20px'>
-                            <Image borderRadius='20px 0px 0px 0px' minW={100} height={100} src="stats.png" alt="stats" className="skincarwidth" />
+                            <Image borderRadius='20px 0px 0px 0px' minW={60} height={60} src="stats.png" alt="stats" className="skincarwidth" />
                         </Box>
                     </Container>
                 </SimpleGrid>
@@ -255,22 +255,22 @@ Tech stack used - HTML,CSS,Javascript.
                 <Heading color='#6889FF' borderBottom='2px solid #C668FF'  alignContent='center'>My Github Calender</Heading>
             </Center>
 
-            <Center mt={60}>
+            <Center mt={30} mb={30}>
                 <SimpleGrid>
                     <Container className="projectCard">
                     <Box borderRadius='20px'>
-                            <Image borderRadius='20px 0px 0px 0px' minW={100} height={100} src="calender2.png" alt="calender" className="skincarwidth" />
+                            <Image borderRadius='20px 0px 0px 0px' minW={60} height={60} src="calender2.png" alt="calender" className="skincarwidth" />
                     </Box>
                     </Container>
                     <Container className="projectCard">
                     <Box borderRadius='20px'>
-                            <Image borderRadius='20px 0px 0px 0px' minW={100} height={100} src="calender.png" alt="calender" className="skincarwidth" />
+                            <Image borderRadius='20px 0px 0px 0px' minW={60} height={60} src="calender.png" alt="calender" className="skincarwidth" />
                     </Box>
                     </Container>
                 </SimpleGrid>
             </Center>
 
-                <Center>
+                <Center ref={projectRef}>
                     <Heading color='#6889FF' borderBottom='2px solid #C668FF' width={100} alignContent='center'>Projects</Heading>
                 </Center>
                 
