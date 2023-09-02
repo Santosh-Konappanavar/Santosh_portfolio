@@ -115,6 +115,10 @@ export const Skills = ({ skillsRef }) => {
                         <img className="skillsLogo" src="postman-icon.svg" alt="postman" />
                         <Text background='none' marginLeft='5px'>Postman</Text>
                     </Box>
+                    <Box background='linear-gradient(to bottom right, #6889FF, #C668FF)' color='black' display='flex' justifyContent='center' border='0px solid #6889FF'>
+                        <img className="skillsLogo" src="postman-icon.svg" alt="postman" />
+                        <Text background='none' marginLeft='5px'>Ruby on Rails</Text>
+                    </Box>
                 </SimpleGrid>
             </Center> :
             <Center>
@@ -134,6 +138,10 @@ export const Skills = ({ skillsRef }) => {
                     <Box background='linear-gradient(to bottom right, #6889FF, #C668FF)' color='black' display='flex' justifyContent='center' border='0px solid #6889FF'>
                         <img className="skillsLogo" src="postman-icon.svg" alt="postman" />
                         <Text background='none' marginLeft='5px'>Postman</Text>
+                    </Box>
+                    <Box background='linear-gradient(to bottom right, #6889FF, #C668FF)' color='black' display='flex' justifyContent='center' border='0px solid #6889FF'>
+                        <img className="skillsLogo" src="postman-icon.svg" alt="postman" />
+                        <Text background='none' marginLeft='5px'>Ruby on rails</Text>
                     </Box>
                 </SimpleGrid>
             </Center> }
