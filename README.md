@@ -104,7 +104,7 @@ To get a local copy up and running, follow these steps.
 
 ### It would be best if you had some familiarity with `HTML`, `CSS`,`JS`, `React` and `Bootstrap`.
 
-- A Computer (MAC or PC)
+- A Computer (PC)
 - code editor (VSCode, Atom etc...)
 - A browser (Chrome, Mozilla, Safari etc...)
 - Version Control System (Git and Github)
